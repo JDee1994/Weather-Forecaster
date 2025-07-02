@@ -1,0 +1,18 @@
+body { margin:0; font-family: sans-serif; background:#e0f7fa; color:#333; }
+
+
+.app { max-width:600px; margin:auto; padding:1em; }
+
+
+header { text-align:center; margin-bottom:1em; }
+
+
+.current-info, .days { display:flex; flex-wrap:wrap; gap:1em; justify-content:center; }
+
+.current-info > p { margin:0.2em 0; }
+
+.day { background:#fff; border-radius:8px; padding:0.5em; flex:1 1 80px; text-align:center; }
+
+.day .date { font-weight:bold; margin-bottom:0.3em; }
+
+.error { color:red; text-align:center; }

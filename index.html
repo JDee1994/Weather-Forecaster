@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>7‑Day Forecast</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>7‑Day Weather Forecast</h1>
+      <p id="location">Loading location...</p>
+    </header>
+    <section id="current">
+      <h2>Now</h2>
+      <div class="current-info">
+        <p id="current-temp"></p>
+        <p id="current-text"></p>
+        <p id="current-details"></p>
+      </div>
+    </section>
+    <section id="forecast">
+      <h2>Next 7 Days</h2>
+      <div class="days"></div>
+    </section>
+    <p id="error" class="error"></p>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
